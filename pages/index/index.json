@@ -1,1 +1,6 @@
-{}
+{
+  "usingComponents": {
+    "card-tagihan": "/components/card-tagihan/card-tagihan"
+  },
+  "defaultTitle": "Tagihan"
+}

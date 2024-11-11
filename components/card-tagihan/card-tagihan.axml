@@ -1,0 +1,25 @@
+<view class="card-tagihan-container shadow-custom-2">
+  <view class="card-tagihan-container-1 container-lg ">  
+    <view class="card-tagihan-container-1-1">
+      <text class="fw-bold fs-7 p-1 px-3">{{description}}</text>  
+      <text class="fs-7 p-1 px-3">TA. {{tahun}}</text>
+    </view>
+    <view class="card-tagihan-container-1-2">
+      <text class="text-right fs-4 fw-bold">{{nominal}}</text>
+    </view>
+  </view>
+  <view class="divider"/>
+  <view class="flex flex row container-lg justify-between">
+    <view class="flex flex-column p-1">
+      <text class="fs-9 text-gray mb-1">No.Invoice</text>
+      <text class="fs-9">{{invoiceNo}}</text>
+    </view>
+    <view class="flex flex-column p-1">
+      <text class="fs-9 text-gray mb-1">Due Date</text>
+      <text class="fs-9">{{dueDate}}</text>
+    </view>
+    <view class="flex m-1 p-1 px-3 rounded-1 border-solid-1 border-turquoise items-center">
+      <text class="fs-7 text-turquoise text-justify-center text-center">{{status}}</text>
+    </view>      
+  </view>
+</view>

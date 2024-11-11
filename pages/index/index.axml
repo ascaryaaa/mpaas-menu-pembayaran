@@ -1,4 +1,22 @@
-
-<view>
-  this is a blank page
+<view class="container">
+  <block a:if="{{loading}}">
+    <text>Loading...</text>
+  </block>
+  <block a:else>
+    <block a:if="{{error}}">
+      <text>{{error}}</text>
+    </block>
+    <block a:else>
+      <block a:for="{{tagihanList}}" a:key="invoiceNo">
+        <card-tagihan
+          invoiceNo="{{item.invoiceNo}}"
+          description="{{item.description}}"
+          nominal="{{item.nominal}}"
+          dueDate="{{item.dueDate}}"
+          tahun="{{item.tahun}}"
+          status="{{item.status}}">
+        </card-tagihan>
+      </block>
+    </block>
+  </block>
 </view>

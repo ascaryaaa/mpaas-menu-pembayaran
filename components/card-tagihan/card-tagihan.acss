@@ -1,0 +1,24 @@
+.card-tagihan-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+}
+
+.card-tagihan-container-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-tagihan-container-1-1{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.card-tagihan-container-1-2{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+}
